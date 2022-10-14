@@ -156,7 +156,6 @@ const MovementPage = ({ movements }: IProps) => {
 						</Box>
 					</InfiniteScroll>
 				)}
-				<InfiniteScrollLoading productType="Movement" />
 			</Container>
 		</>
 	);
