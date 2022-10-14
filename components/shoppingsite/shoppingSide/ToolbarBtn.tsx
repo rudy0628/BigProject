@@ -43,7 +43,7 @@ const ToolbarBtn = ({
 	return (
 		<SpeedDial
 			ariaLabel="SpeedDial basic example"
-			sx={{ position: 'fixed', bottom: 120, right: 16 }}
+			sx={{ position: 'fixed', bottom: 110, right: 27 }}
 			icon={<SpeedDialIcon />}
 		>
 			{actions
