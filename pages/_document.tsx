@@ -13,6 +13,9 @@ export default class MyDocument extends Document {
 						rel="stylesheet"
 						href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
 					/>
+					{/* Many chat */}
+					<script src="//widget.manychat.com/106461392244387.js" defer></script>
+					<script src="https://mccdn.me/assets/js/widget.js" defer></script>
 				</Head>
 				<body>
 					<Main />
