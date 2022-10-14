@@ -47,7 +47,7 @@ export function getUserDataFromToken(token: string) {
 	}
 }
 
-export const getCardOptions = (isDarkMode: boolean) => {
+export const getCardOptions = (isDarkMode: boolean, isLoading: boolean) => {
 	const CARD_OPTIONS = {
 		style: {
 			base: {
@@ -65,6 +65,7 @@ export const getCardOptions = (isDarkMode: boolean) => {
 				color: '#f03e3e',
 			},
 		},
+		disabled: isLoading,
 	};
 
 	return CARD_OPTIONS;

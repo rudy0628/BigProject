@@ -68,7 +68,7 @@ const TicketCheckout = ({ setStep }: IProps) => {
 	const router = useRouter();
 
 	// stripe credit cart styles
-	const CARD_OPTIONS = getCardOptions(isDarkMode);
+	const CARD_OPTIONS = getCardOptions(isDarkMode, isLoading);
 
 	// geolocation
 	const location = useGeoLocation();

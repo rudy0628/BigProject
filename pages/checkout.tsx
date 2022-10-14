@@ -31,7 +31,7 @@ export default function CheckOut() {
 	const router = useRouter();
 
 	const numberFormat = new Intl.NumberFormat();
-	const CARD_OPTIONS = getCardOptions(isDarkMode);
+	const CARD_OPTIONS = getCardOptions(isDarkMode, isLoading);
 
 	if (!userProfile || totalAmount === 0) {
 		router.push('/shoppingsite');
