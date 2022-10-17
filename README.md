@@ -1,5 +1,5 @@
 # BigProject
-## BigProject 是一款可以訂購機票的網站
+## BigProject 是一款可以訂購機票及商品的網站
 ◆ 使用 Next.js 開發前端及 API 端口，資料庫是利用 Sanity 來做管理，前端 UI 是使用 MaterialUI 來做布局。 
 ◆ 使用者可以在 Shoppingsite 中新增、刪除、修改、搜尋及瀏覽商品，商品資料是由 Sanity 來做管理。 
 ◆ 使用者可以在 Airtshop 中新增、刪除、搜尋及瀏覽商品，已訂購是由 Sanity 來做管理，機票資訊是由第三方 API AirLabs 提供。 
