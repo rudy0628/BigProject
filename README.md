@@ -8,5 +8,5 @@
 ◆ 使用者可使用第三方登入，第三方登入是由 @react-oauth 提供。   
 ◆ 使用者如果有疑問，可以於右下角點擊 Messenger 按鈕，Messenger 機器人會提供問題解答，Messenger 機器人是由ManyChat提供。  
   
-[前往網站](https://bigproject.vercel.app/)
+[前往網站 BigProject](https://bigproject.vercel.app/)
 
